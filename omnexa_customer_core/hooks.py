@@ -1,5 +1,5 @@
 app_name = "omnexa_customer_core"
-app_title = "Omnexa Customer Core"
+app_title = "ErpGenEx — Customer Core"
 app_publisher = "Omnexa"
 app_description = "Shared customer core services"
 app_email = "dev@omnexa.com"
