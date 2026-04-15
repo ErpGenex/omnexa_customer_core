@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CASE-{YYYY}-{#####}",
+ "creation": "2026-04-17 09:40:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "company",
+  "branch",
+  "customer_profile",
+  "priority",
+  "assigned_to",
+  "status",
+  "creation_date",
+  "sla_due_date",
+  "resolved_on",
+  "is_sla_breached",
+  "details"
+ ],
+ "fields": [
+  {"fieldname": "title", "fieldtype": "Data", "in_list_view": 1, "label": "Title", "reqd": 1},
+  {"fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"fieldname": "branch", "fieldtype": "Link", "in_list_view": 1, "label": "Branch", "options": "Branch", "reqd": 1},
+  {"fieldname": "customer_profile", "fieldtype": "Link", "in_list_view": 1, "label": "Customer Profile", "options": "Customer Profile", "reqd": 1},
+  {"default": "Medium", "fieldname": "priority", "fieldtype": "Select", "label": "Priority", "options": "Low\nMedium\nHigh\nCritical"},
+  {"fieldname": "assigned_to", "fieldtype": "Link", "label": "Assigned To", "options": "User"},
+  {"default": "Open", "fieldname": "status", "fieldtype": "Select", "in_list_view": 1, "label": "Status", "options": "Open\nAssigned\nInvestigating\nResolved\nClosed\nEscalated", "reqd": 1},
+  {"fieldname": "creation_date", "fieldtype": "Datetime", "label": "Creation Date", "reqd": 1},
+  {"fieldname": "sla_due_date", "fieldtype": "Datetime", "label": "SLA Due Date"},
+  {"fieldname": "resolved_on", "fieldtype": "Datetime", "label": "Resolved On"},
+  {"default": "0", "fieldname": "is_sla_breached", "fieldtype": "Check", "label": "SLA Breached", "read_only": 1},
+  {"fieldname": "details", "fieldtype": "Text", "label": "Details"}
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-17 09:40:00",
+ "modified_by": "Administrator",
+ "module": "Omnexa Customer Core",
+ "name": "CRM Case Ticket",
+ "owner": "Administrator",
+ "permissions": [
+  {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "write": 1},
+  {"create": 1, "delete": 0, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "Support Manager", "share": 0, "write": 1},
+  {"create": 1, "delete": 0, "email": 0, "export": 0, "print": 1, "read": 1, "report": 1, "role": "Support User", "share": 0, "write": 1},
+  {"create": 1, "delete": 0, "email": 0, "export": 0, "print": 1, "read": 1, "report": 1, "role": "Sales User", "share": 0, "write": 0}
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
+

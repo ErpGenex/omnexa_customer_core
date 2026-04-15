@@ -8,18 +8,17 @@ app_license = "mit"
 # Apps
 # ------------------
 
-required_apps = ["omnexa_core"]
+required_apps = ["omnexa_core", "omnexa_accounting"]
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "omnexa_customer_core",
-# 		"logo": "/assets/omnexa_customer_core/logo.png",
-# 		"title": "Omnexa Customer Core",
-# 		"route": "/omnexa_customer_core",
-# 		"has_permission": "omnexa_customer_core.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "omnexa_customer_core",
+		"logo": "/assets/omnexa_customer_core/customer-core.svg",
+		"title": "CRM",
+		"route": "/app/crm",
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -117,13 +116,14 @@ required_apps = ["omnexa_core"]
 # -----------
 # Permissions evaluated in scripted ways
 
-# permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
-# }
-#
-# has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
-# }
+permission_query_conditions = {
+	"Customer Profile": "omnexa_customer_core.permissions.customer_profile_query_conditions",
+	"CRM Lead": "omnexa_customer_core.permissions.crm_lead_query_conditions",
+	"CRM Opportunity": "omnexa_customer_core.permissions.crm_opportunity_query_conditions",
+	"CRM Interaction Log": "omnexa_customer_core.permissions.crm_interaction_log_query_conditions",
+	"CRM Case Ticket": "omnexa_customer_core.permissions.crm_case_ticket_query_conditions",
+	"CRM Campaign": "omnexa_customer_core.permissions.crm_campaign_query_conditions",
+}
 
 # DocType Class
 # ---------------
@@ -137,13 +137,32 @@ required_apps = ["omnexa_core"]
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Customer Profile": {
+		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+	},
+	"CRM Lead": {
+		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+	},
+	"CRM Opportunity": {
+		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+	},
+	"CRM Interaction Log": {
+		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+	},
+	"CRM Case Ticket": {
+		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+	},
+	"CRM Campaign": {
+		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+	},
+}
 
 # Scheduled Tasks
 # ---------------

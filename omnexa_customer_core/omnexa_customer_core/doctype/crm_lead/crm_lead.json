@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:LEAD-{YYYY}-{#####}",
+ "creation": "2026-04-17 09:10:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lead_name",
+  "company",
+  "branch",
+  "lead_source",
+  "lead_status",
+  "mobile_no",
+  "email",
+  "lead_score",
+  "expected_deal_value",
+  "notes"
+ ],
+ "fields": [
+  {"fieldname": "lead_name", "fieldtype": "Data", "in_list_view": 1, "label": "Lead Name", "reqd": 1},
+  {"fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"fieldname": "branch", "fieldtype": "Link", "in_list_view": 1, "label": "Branch", "options": "Branch", "reqd": 1},
+  {"fieldname": "lead_source", "fieldtype": "Select", "in_list_view": 1, "label": "Lead Source", "options": "Web\nAPI\nManual\nCampaign\nReferral"},
+  {"default": "Open", "fieldname": "lead_status", "fieldtype": "Select", "in_list_view": 1, "label": "Lead Status", "options": "Open\nQualified\nConverted\nLost", "reqd": 1},
+  {"fieldname": "mobile_no", "fieldtype": "Data", "label": "Mobile No"},
+  {"fieldname": "email", "fieldtype": "Data", "label": "Email"},
+  {"default": "0", "fieldname": "lead_score", "fieldtype": "Percent", "label": "Lead Score"},
+  {"default": "0", "fieldname": "expected_deal_value", "fieldtype": "Currency", "label": "Expected Deal Value"},
+  {"fieldname": "notes", "fieldtype": "Small Text", "label": "Notes"}
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-17 09:10:00",
+ "modified_by": "Administrator",
+ "module": "Omnexa Customer Core",
+ "name": "CRM Lead",
+ "owner": "Administrator",
+ "permissions": [
+  {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "write": 1},
+  {"create": 1, "delete": 0, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "Sales Manager", "share": 0, "write": 1},
+  {"create": 1, "delete": 0, "email": 0, "export": 0, "print": 1, "read": 1, "report": 1, "role": "Sales User", "share": 0, "write": 1}
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
+

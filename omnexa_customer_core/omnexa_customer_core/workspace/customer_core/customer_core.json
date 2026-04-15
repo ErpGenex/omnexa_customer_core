@@ -1,0 +1,46 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"omx-cc-h1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Customer Core CRM</b></span>\",\"col\":12}},{\"id\":\"omx-cc-c0\",\"type\":\"card\",\"data\":{\"card_name\":\"Customer 360\",\"col\":4}},{\"id\":\"omx-cc-c1\",\"type\":\"card\",\"data\":{\"card_name\":\"Pipeline\",\"col\":4}},{\"id\":\"omx-cc-c2\",\"type\":\"card\",\"data\":{\"card_name\":\"Service & Marketing\",\"col\":4}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "CRM",
+ "links": [
+  {"hidden": 0, "is_query_report": 0, "label": "Customer 360", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "Customer Profile", "link_count": 0, "link_to": "Customer Profile", "link_type": "DocType", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "CRM Interaction Log", "link_count": 0, "link_to": "CRM Interaction Log", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+  {"hidden": 0, "is_query_report": 0, "label": "Pipeline", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "CRM Lead", "link_count": 0, "link_to": "CRM Lead", "link_type": "DocType", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "CRM Opportunity", "link_count": 0, "link_to": "CRM Opportunity", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+  {"hidden": 0, "is_query_report": 0, "label": "Service & Marketing", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "CRM Case Ticket", "link_count": 0, "link_to": "CRM Case Ticket", "link_type": "DocType", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "CRM Campaign", "link_count": 0, "link_to": "CRM Campaign", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+  {"hidden": 0, "is_query_report": 0, "label": "Reports", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 1, "label": "CRM Pipeline Value", "link_count": 0, "link_to": "CRM Pipeline Value", "link_type": "Report", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 1, "label": "CRM Case SLA Compliance", "link_count": 0, "link_to": "CRM Case SLA Compliance", "link_type": "Report", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 1, "label": "CRM Customer Revenue", "link_count": 0, "link_to": "CRM Customer Revenue", "link_type": "Report", "onboard": 0, "type": "Link"}
+ ],
+ "modified": "2026-04-17 10:10:00",
+ "modified_by": "Administrator",
+ "module": "Omnexa Customer Core",
+ "name": "CRM",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 8.2,
+ "shortcuts": [],
+ "title": "CRM"
+}
+
