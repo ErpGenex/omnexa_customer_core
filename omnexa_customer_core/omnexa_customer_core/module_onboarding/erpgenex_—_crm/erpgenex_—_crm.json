@@ -1,0 +1,41 @@
+{
+ "allow_roles": [
+  {
+   "role": "Desk User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "creation": "2026-04-20 00:31:40.468969",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://frappe.io/framework",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2026-04-20 02:24:45.158639",
+ "modified_by": "Administrator",
+ "module": "Omnexa Customer Core",
+ "name": "ERPGENEX \u2014 CRM",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "ERPGENEX-WS-crm-01-user_branch_access"
+  },
+  {
+   "step": "ERPGENEX-WS-crm-02-customer_profile"
+  },
+  {
+   "step": "ERPGENEX-WS-crm-03-crm_interaction_log"
+  },
+  {
+   "step": "ERPGENEX-WS-crm-04-crm_lead"
+  },
+  {
+   "step": "ERPGENEX-WS-crm-home"
+  }
+ ],
+ "subtitle": "Guided setup for this workspace.",
+ "success_message": "You are ready to work in CRM.",
+ "title": "ERPGENEX \u00b7 CRM"
+}
