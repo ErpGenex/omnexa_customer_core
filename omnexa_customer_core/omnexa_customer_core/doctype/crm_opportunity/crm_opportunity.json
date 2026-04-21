@@ -1,62 +1,173 @@
 {
- "actions": [],
- "allow_rename": 1,
- "autoname": "format:OPP-{YYYY}-{#####}",
- "creation": "2026-04-17 09:20:00",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "identity_section",
-  "opportunity_title",
-  "company",
-  "branch",
-  "party_section",
-  "lead",
-  "customer_profile",
-  "pipeline_section",
-  "stage",
-  "deal_value",
-  "probability_percent",
-  "expected_closing_date",
-  "status",
-  "control_section",
-  "opportunity_owner",
-  "notes"
- ],
- "fields": [
-  {"fieldname": "identity_section", "fieldtype": "Section Break", "label": "Opportunity Identity"},
-  {"fieldname": "opportunity_title", "fieldtype": "Data", "in_list_view": 1, "label": "Opportunity Title", "reqd": 1},
-  {"fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "label": "Company", "options": "Company", "reqd": 1},
-  {"fieldname": "branch", "fieldtype": "Link", "in_list_view": 1, "label": "Branch", "options": "Branch", "reqd": 1},
-  {"fieldname": "party_section", "fieldtype": "Section Break", "label": "Related Party"},
-  {"fieldname": "lead", "fieldtype": "Link", "label": "Lead", "options": "CRM Lead"},
-  {"fieldname": "customer_profile", "fieldtype": "Link", "label": "Customer Profile", "options": "Customer Profile"},
-  {"fieldname": "pipeline_section", "fieldtype": "Section Break", "label": "Pipeline"},
-  {"default": "Prospect", "fieldname": "stage", "fieldtype": "Select", "in_list_view": 1, "label": "Stage", "options": "Prospect\nQualified\nProposal\nNegotiation\nWon\nLost", "reqd": 1},
-  {"default": "0", "fieldname": "deal_value", "fieldtype": "Currency", "in_list_view": 1, "label": "Deal Value"},
-  {"default": "0", "fieldname": "probability_percent", "fieldtype": "Percent", "label": "Probability %"},
-  {"fieldname": "expected_closing_date", "fieldtype": "Date", "label": "Expected Closing Date"},
-  {"default": "Open", "fieldname": "status", "fieldtype": "Select", "in_list_view": 1, "label": "Status", "options": "Open\nWon\nLost", "reqd": 1},
-  {"fieldname": "control_section", "fieldtype": "Section Break", "label": "Ownership and Notes"},
-  {"fieldname": "opportunity_owner", "fieldtype": "Link", "label": "Opportunity Owner", "options": "User"},
-  {"fieldname": "notes", "fieldtype": "Small Text", "label": "Notes"}
- ],
- "grid_page_length": 50,
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2026-04-17 09:20:00",
- "modified_by": "Administrator",
- "module": "Omnexa Customer Core",
- "name": "CRM Opportunity",
- "owner": "Administrator",
- "permissions": [
-  {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "write": 1},
-  {"create": 1, "delete": 0, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "Sales Manager", "share": 0, "write": 1},
-  {"create": 1, "delete": 0, "email": 0, "export": 0, "print": 1, "read": 1, "report": 1, "role": "Sales User", "share": 0, "write": 1}
- ],
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": [],
- "track_changes": 1
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "format:OPP-{YYYY}-{#####}",
+	"creation": "2026-04-17 09:20:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"opportunity_title",
+		"company",
+		"branch",
+		"party_section",
+		"lead",
+		"customer_profile",
+		"pipeline_section",
+		"stage",
+		"deal_value",
+		"probability_percent",
+		"column_break_omnexa_1",
+		"expected_closing_date",
+		"status",
+		"opportunity_owner",
+		"notes"
+	],
+	"fields": [
+		{
+			"fieldname": "opportunity_title",
+			"fieldtype": "Data",
+			"in_list_view": 1,
+			"label": "Opportunity Title",
+			"reqd": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Branch",
+			"options": "Branch",
+			"reqd": 1
+		},
+		{
+			"fieldname": "party_section",
+			"fieldtype": "Section Break",
+			"label": "Related Party"
+		},
+		{
+			"fieldname": "lead",
+			"fieldtype": "Link",
+			"label": "Lead",
+			"options": "CRM Lead"
+		},
+		{
+			"fieldname": "customer_profile",
+			"fieldtype": "Link",
+			"label": "Customer Profile",
+			"options": "Customer Profile"
+		},
+		{
+			"fieldname": "pipeline_section",
+			"fieldtype": "Section Break",
+			"label": "Pipeline"
+		},
+		{
+			"default": "Prospect",
+			"fieldname": "stage",
+			"fieldtype": "Select",
+			"in_list_view": 1,
+			"label": "Stage",
+			"options": "Prospect\nQualified\nProposal\nNegotiation\nWon\nLost",
+			"reqd": 1
+		},
+		{
+			"default": "0",
+			"fieldname": "deal_value",
+			"fieldtype": "Currency",
+			"in_list_view": 1,
+			"label": "Deal Value"
+		},
+		{
+			"default": "0",
+			"fieldname": "probability_percent",
+			"fieldtype": "Percent",
+			"label": "Probability %"
+		},
+		{
+			"fieldname": "expected_closing_date",
+			"fieldtype": "Date",
+			"label": "Expected Closing Date"
+		},
+		{
+			"default": "Open",
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"in_list_view": 1,
+			"label": "Status",
+			"options": "Open\nWon\nLost",
+			"reqd": 1
+		},
+		{
+			"fieldname": "opportunity_owner",
+			"fieldtype": "Link",
+			"label": "Opportunity Owner",
+			"options": "User"
+		},
+		{
+			"fieldname": "notes",
+			"fieldtype": "Small Text",
+			"label": "Notes"
+		},
+		{
+			"fieldname": "column_break_omnexa_1",
+			"fieldtype": "Column Break"
+		}
+	],
+	"grid_page_length": 50,
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-04-17 09:20:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Customer Core",
+	"name": "CRM Opportunity",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"delete": 0,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "Sales Manager",
+			"share": 0,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"delete": 0,
+			"email": 0,
+			"export": 0,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "Sales User",
+			"share": 0,
+			"write": 1
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
 }
-
