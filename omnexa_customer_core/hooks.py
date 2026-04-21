@@ -81,8 +81,8 @@ add_to_apps_screen = [
 # Installation
 # ------------
 
-# before_install = "omnexa_customer_core.install.before_install"
-# after_install = "omnexa_customer_core.install.after_install"
+before_install = "omnexa_customer_core.install.enforce_supported_frappe_version"
+before_migrate = "omnexa_customer_core.install.enforce_supported_frappe_version"
 
 # Uninstallation
 # ------------
