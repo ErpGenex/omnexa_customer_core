@@ -1,8 +1,8 @@
 app_name = "omnexa_customer_core"
 app_title = "ErpGenEx — Customer Core"
-app_publisher = "Omnexa"
+app_publisher = "ErpGenEx"
 app_description = "Shared customer core services"
-app_email = "dev@omnexa.com"
+app_email = "dev@erpgenex.com"
 app_license = "mit"
 
 # Apps
