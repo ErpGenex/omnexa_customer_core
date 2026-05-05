@@ -6,11 +6,13 @@
 	"doctype": "DocType",
 	"engine": "InnoDB",
 	"field_order": [
+		"tab_break_overview",
 		"title",
 		"company",
 		"column_break_omnexa_2",
 		"branch",
 		"customer_profile",
+		"tab_break_1",
 		"triage_section",
 		"priority",
 		"assigned_to",
@@ -20,12 +22,28 @@
 		"sla_due_date",
 		"resolved_on",
 		"is_sla_breached",
+		"tab_break_2",
 		"closure_section",
 		"case_category",
 		"details",
 		"case_owner"
 	],
 	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "tab_break_2",
+			"fieldtype": "Tab Break",
+			"label": "Further"
+		},
 		{
 			"fieldname": "title",
 			"fieldtype": "Data",
@@ -142,7 +160,7 @@
 	"grid_page_length": 50,
 	"index_web_pages_for_search": 1,
 	"links": [],
-	"modified": "2026-04-17 09:40:00",
+	"modified": "2026-05-07 12:00:00",
 	"modified_by": "Administrator",
 	"module": "Omnexa Customer Core",
 	"name": "CRM Case Ticket",
