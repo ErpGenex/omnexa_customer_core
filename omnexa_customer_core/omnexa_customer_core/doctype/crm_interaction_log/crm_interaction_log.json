@@ -6,15 +6,18 @@
 	"doctype": "DocType",
 	"engine": "InnoDB",
 	"field_order": [
+		"tab_break_overview",
 		"company",
 		"branch",
 		"column_break_omnexa_1",
 		"interaction_date",
 		"channel",
+		"tab_break_1",
 		"party_section",
 		"customer_profile",
 		"lead",
 		"opportunity",
+		"tab_break_2",
 		"details_section",
 		"subject",
 		"details",
@@ -24,6 +27,21 @@
 		"owner_user"
 	],
 	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "tab_break_2",
+			"fieldtype": "Tab Break",
+			"label": "Further"
+		},
 		{
 			"fieldname": "company",
 			"fieldtype": "Link",
@@ -125,7 +143,7 @@
 	"grid_page_length": 50,
 	"index_web_pages_for_search": 1,
 	"links": [],
-	"modified": "2026-04-17 09:30:00",
+	"modified": "2026-05-07 12:00:00",
 	"modified_by": "Administrator",
 	"module": "Omnexa Customer Core",
 	"name": "CRM Interaction Log",
