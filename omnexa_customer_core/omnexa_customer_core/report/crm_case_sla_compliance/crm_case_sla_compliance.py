@@ -3,6 +3,8 @@
 
 import frappe
 from frappe import _
+
+from omnexa_core.omnexa_core.utils.report_charts import auto_chart_for_columns
 from omnexa_core.omnexa_core.branch_access import get_allowed_branches
 
 
@@ -38,7 +40,9 @@ def execute(filters=None):
 	)
 	for row in data:
 		row.compliance_percent = ((row.total_cases - row.breached_cases) / row.total_cases * 100.0) if row.total_cases else 0
-	return _columns(), data
+	columns = _columns()
+	chart = auto_chart_for_columns(data, columns)
+	return columns, data, None, chart
 
 
 def _columns():
