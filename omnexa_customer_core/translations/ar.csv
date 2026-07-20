@@ -1,0 +1,109 @@
+Assigned To,Assigned إلى
+"At least one reference is required: Customer, Lead, or Opportunity.","At least one reference is required: عميل, عميل محتمل, or Opportunity."
+Branch,الفرع
+Branch belongs to another company.,فرع belongs إلى another شركة.
+Branch does not exist.,فرع does not exist.
+Breached,Breached
+Campaign,Campaign
+Campaign Cost,Campaign تكلفة
+Campaign Name,Campaign اسم
+Campaign Owner,Campaign Owner
+Campaign Type,Campaign نوع
+Case Category,حالة فئة
+Case Owner,حالة Owner
+Category and Details,فئة و تفاصيل
+cc-executive-dashboard,cc - تنفيذي - لوحة معلومات
+Channel,Channel
+Company,الشركة
+Company filter is required.,شركة filter is required.
+Compliance,الامتثال
+Contact,جهة الاتصال
+Country,Country
+Creation Date,Creation تاريخ
+Credit Limit,ائتمان Limit
+CRM,CRM
+CRM Campaign,CRM Campaign
+CRM Case SLA Compliance,CRM حالة SLA امتثال
+CRM Case Ticket,CRM حالة Ticket
+CRM Customer Revenue,CRM عميل إيرادات
+CRM Interaction Log,CRM Interaction سجل
+CRM Lead,CRM عميل محتمل
+CRM Opportunity,CRM Opportunity
+CRM Opportunity Mix,CRM Opportunity Mix
+CRM Pipeline Value,CRM Pipeline Value
+Customer 360,عميل 360
+Customer Code,عميل كود
+Customer Code must be unique per company.,عميل كود must be unique per شركة.
+Customer Name,عميل اسم
+Customer Profile,ملف العميل
+Customer Profile Mix,عميل ملف Mix
+Customer Type,عميل نوع
+Deal Value,Deal Value
+Details,التفاصيل
+Direction,Direction
+Duplicate,Duplicate
+Email,البريد الإلكتروني
+End Date,تاريخ الانتهاء
+End Date cannot be before Start Date.,نهاية تاريخ cannot be before بداية تاريخ.
+Expected Closing Date,Expected Closing تاريخ
+Expected Deal Value,Expected Deal Value
+Filters,Filters
+Financial Profile,مالي ملف
+Further,Further
+GDPR Consent,GDPR Consent
+Generated Revenue,Generated إيرادات
+Industry Segment,Industry Segment
+Interaction Date,Interaction تاريخ
+Interaction Details,Interaction تفاصيل
+Interaction Owner,Interaction Owner
+Lead,عميل محتمل
+Lead Name,عميل محتمل اسم
+Lead Score,عميل محتمل درجة
+Lead Score must be between 0 and 100.,عميل محتمل درجة must be between 0 و 100.
+Lead Source,عميل محتمل Source
+Lead Status,عميل محتمل حالة
+Linked Accounting Customer,Linked محاسبة عميل
+Mobile No,Mobile No
+Notes,Notes
+Omnexa Customer Core,Omnexa عميل أساسي
+Opportunities,Opportunities
+Opportunity,Opportunity
+Opportunity Owner,Opportunity Owner
+Opportunity Title,Opportunity عنوان
+Outstanding,Outstanding
+Outstanding Balance,Outstanding رصيد
+Overview,نظرة عامة
+Owner,Owner
+Performance,أداء
+Pipeline,Pipeline
+Pipeline Value,Pipeline Value
+Planning,Planning
+Posting,Posting
+Priority,Priority
+Probability,Probability
+Probability %,Probability%
+Probability must be between 0 and 100.,Probability must be between 0 و 100.
+Qualification,Qualification
+Reference,Reference
+Related Party,Related Party
+Reports,تقارير
+Resolved On,Resolved On
+Risk Score,مخاطر درجة
+Risk Score must be between 0 and 100.,مخاطر درجة must be between 0 و 100.
+ROI %,ROI%
+Scoring and Value,Scoring و Value
+Service & Marketing,خدمة & Marketing
+SLA Breached,SLA Breached
+SLA Compliance %,SLA امتثال%
+SLA Due Date,SLA استحقاق تاريخ
+Stage,Stage
+Start Date,بداية تاريخ
+Status,الحالة
+Status Bar,حالة Bar
+Subject,Subject
+Target Audience Size,Target Audience Size
+Tax ID,Tax معرف
+Title,العنوان
+Total Cases,إجمالي حالات
+Total Revenue,إجمالي إيرادات
+Triage and SLA,Triage و SLA
