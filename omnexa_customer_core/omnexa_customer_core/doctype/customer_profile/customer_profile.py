@@ -24,7 +24,8 @@ class CustomerProfile(Document):
 	def _validate_unique_code(self):
 		existing = frappe.db.get_value(
 			"Customer Profile",
-			{"company": self.company, "customer_code": self.customer_code},
+			{"company": self.company, "customer_code": self.customer_code
+	},
 			"name",
 		)
 		if existing and existing != self.name:

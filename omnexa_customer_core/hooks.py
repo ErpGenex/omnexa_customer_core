@@ -16,7 +16,7 @@ add_to_apps_screen = [
 		"name": "omnexa_customer_core",
 		"logo": "/assets/omnexa_customer_core/logo.png",
 		"title": "CRM",
-		"route": "/app/crm",
+		"route": "/app/crm"
 	}
 ]
 
@@ -122,8 +122,8 @@ permission_query_conditions = {
 	"CRM Opportunity": "omnexa_customer_core.permissions.crm_opportunity_query_conditions",
 	"CRM Interaction Log": "omnexa_customer_core.permissions.crm_interaction_log_query_conditions",
 	"CRM Case Ticket": "omnexa_customer_core.permissions.crm_case_ticket_query_conditions",
-	"CRM Campaign": "omnexa_customer_core.permissions.crm_campaign_query_conditions",
-}
+	"CRM Campaign": "omnexa_customer_core.permissions.crm_campaign_query_conditions"
+	}
 
 # DocType Class
 # ---------------
@@ -140,29 +140,28 @@ permission_query_conditions = {
 doc_events = {
 	"Customer Profile": {
 		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc"
 	},
 	"CRM Lead": {
 		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc"
 	},
 	"CRM Opportunity": {
 		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc"
 	},
 	"CRM Interaction Log": {
 		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc"
 	},
 	"CRM Case Ticket": {
 		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc"
 	},
 	"CRM Campaign": {
 		"before_validate": "omnexa_customer_core.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc",
-	},
-}
+		"validate": "omnexa_customer_core.permissions.enforce_branch_access_for_doc"}
+	}
 
 # Scheduled Tasks
 # ---------------
@@ -228,22 +227,22 @@ before_request = ["omnexa_customer_core.license_gate.before_request"]
 
 # user_data_fields = [
 # 	{
-# 		"doctype": "{doctype_1}",
-# 		"filter_by": "{filter_by}",
-# 		"redact_fields": ["{field_1}", "{field_2}"],
+# 		"doctype": "{}",
+# 		"filter_by": "{}",
+# 		"redact_fields": ["{}", "{}"],
 # 		"partial": 1,
 # 	},
 # 	{
-# 		"doctype": "{doctype_2}",
-# 		"filter_by": "{filter_by}",
+# 		"doctype": "{}",
+# 		"filter_by": "{}",
 # 		"partial": 1,
 # 	},
 # 	{
-# 		"doctype": "{doctype_3}",
+# 		"doctype": "{}",
 # 		"strict": False,
 # 	},
 # 	{
-# 		"doctype": "{doctype_4}"
+# 		"doctype": "{}"
 # 	}
 # ]
 

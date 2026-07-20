@@ -16,7 +16,8 @@ class TestCRME2E(FrappeTestCase):
 		if not self.company:
 			self.skipTest("No company")
 		self.branch = frappe.db.get_value(
-			"Branch", {"company": self.company, "status": "Active"}, "name", order_by="creation asc"
+			"Branch", {"company": self.company, "status": "Active"
+	}, "name", order_by="creation asc"
 		)
 		if not self.branch:
 			self.skipTest("No branch")
@@ -44,7 +45,8 @@ class TestCRME2E(FrappeTestCase):
 			execute,
 		)
 
-		out = execute({"company": self.company})
+		out = execute({"company": self.company
+	})
 		cols, data = out[0], out[1]
 		self.assertTrue(cols)
 		self.assertIsInstance(data, list)

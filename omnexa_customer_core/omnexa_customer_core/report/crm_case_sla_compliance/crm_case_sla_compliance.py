@@ -47,9 +47,13 @@ def execute(filters=None):
 
 def _columns():
 	return [
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120},
-		{"label": _("Total Cases"), "fieldname": "total_cases", "fieldtype": "Int", "width": 110},
-		{"label": _("Breached"), "fieldname": "breached_cases", "fieldtype": "Int", "width": 100},
-		{"label": _("SLA Compliance %"), "fieldname": "compliance_percent", "fieldtype": "Percent", "width": 130},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120
+	},
+		{"label": _("Total Cases"), "fieldname": "total_cases", "fieldtype": "Int", "width": 110
+	},
+		{"label": _("Breached"), "fieldname": "breached_cases", "fieldtype": "Int", "width": 100
+	},
+		{"label": _("SLA Compliance %"), "fieldname": "compliance_percent", "fieldtype": "Percent", "width": 130
+	},
 	]
 

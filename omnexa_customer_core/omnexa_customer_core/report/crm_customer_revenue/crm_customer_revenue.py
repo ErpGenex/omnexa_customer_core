@@ -49,10 +49,15 @@ def execute(filters=None):
 
 def _columns():
 	return [
-		{"label": _("Customer Profile"), "fieldname": "customer_profile", "fieldtype": "Link", "options": "Customer Profile", "width": 150},
-		{"label": _("Customer Name"), "fieldname": "customer_name", "fieldtype": "Data", "width": 180},
-		{"label": _("Branch"), "fieldname": "branch", "fieldtype": "Link", "options": "Branch", "width": 120},
-		{"label": _("Total Revenue"), "fieldname": "total_revenue", "fieldtype": "Currency", "width": 140},
-		{"label": _("Outstanding"), "fieldname": "outstanding_balance", "fieldtype": "Currency", "width": 130},
+		{"label": _("Customer Profile"), "fieldname": "customer_profile", "fieldtype": "Link", "options": "Customer Profile", "width": 150
+	},
+		{"label": _("Customer Name"), "fieldname": "customer_name", "fieldtype": "Data", "width": 180
+	},
+		{"label": _("Branch"), "fieldname": "branch", "fieldtype": "Link", "options": "Branch", "width": 120
+	},
+		{"label": _("Total Revenue"), "fieldname": "total_revenue", "fieldtype": "Currency", "width": 140
+	},
+		{"label": _("Outstanding"), "fieldname": "outstanding_balance", "fieldtype": "Currency", "width": 130
+	},
 	]
 

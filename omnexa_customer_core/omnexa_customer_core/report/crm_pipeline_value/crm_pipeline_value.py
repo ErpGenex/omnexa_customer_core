@@ -45,8 +45,11 @@ def execute(filters=None):
 
 def _columns():
 	return [
-		{"label": _("Stage"), "fieldname": "stage", "fieldtype": "Data", "width": 140},
-		{"label": _("Opportunities"), "fieldname": "opportunities", "fieldtype": "Int", "width": 120},
-		{"label": _("Pipeline Value"), "fieldname": "pipeline_value", "fieldtype": "Currency", "width": 140},
+		{"label": _("Stage"), "fieldname": "stage", "fieldtype": "Data", "width": 140
+	},
+		{"label": _("Opportunities"), "fieldname": "opportunities", "fieldtype": "Int", "width": 120
+	},
+		{"label": _("Pipeline Value"), "fieldname": "pipeline_value", "fieldtype": "Currency", "width": 140
+	},
 	]
 
