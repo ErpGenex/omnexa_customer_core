@@ -1,7 +1,7 @@
 {
  "action": "Create Entry",
  "action_label": "Create",
- "creation": "2026-05-13 04:17:30.275836",
+ "creation": "2026-07-20 01:49:20.875554",
  "description": "Create or review your first **Omnexa Sales Settings** record from this workspace.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
@@ -9,7 +9,7 @@
  "is_complete": 0,
  "is_single": 1,
  "is_skipped": 0,
- "modified": "2026-07-11 14:37:23.987828",
+ "modified": "2026-07-25 15:05:02.142151",
  "modified_by": "Administrator",
  "name": "ERPGENEX-WS-crm-01-omnexa_sales_settings",
  "owner": "Administrator",

@@ -1,7 +1,7 @@
 {
  "action": "Create Entry",
  "action_label": "Create",
- "creation": "2026-05-13 04:17:30.286014",
+ "creation": "2026-07-20 01:49:20.882699",
  "description": "Create or review your first **Customer Profile** record from this workspace.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
@@ -9,7 +9,7 @@
  "is_complete": 0,
  "is_single": 0,
  "is_skipped": 0,
- "modified": "2026-07-11 14:37:23.999366",
+ "modified": "2026-07-25 15:05:02.154645",
  "modified_by": "Administrator",
  "name": "ERPGENEX-WS-crm-03-customer_profile",
  "owner": "Administrator",
