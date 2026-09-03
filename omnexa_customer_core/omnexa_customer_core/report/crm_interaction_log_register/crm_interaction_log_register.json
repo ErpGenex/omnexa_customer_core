@@ -1,0 +1,20 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "disabled": 0,
+ "doctype": "Report",
+ "filters": [],
+ "is_standard": "Yes",
+ "module": "Omnexa Customer Core",
+ "name": "CRM Interaction Log Register",
+ "prepared_report": 0,
+ "query": "",
+ "ref_doctype": "CRM Interaction Log",
+ "report_name": "CRM Interaction Log Register",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

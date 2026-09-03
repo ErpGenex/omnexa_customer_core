@@ -1,109 +1,440 @@
-Assigned To,Assigned إلى
-"At least one reference is required: Customer, Lead, or Opportunity.","At least one reference is required: عميل, عميل محتمل, or Opportunity."
+Accounting,المحاسبة
+Accounts Payable,الذمم الدائنة
+Accounts Receivable,الذمم المدينة
+Actions,إجراءات
+Active,نشط
+Administrator,المسؤول
+Agriculture,الزراعة
+AI & Intelligence,الذكاء الاصطناعي والتحليلات
+All,الكل
+All activities,كل الأنشطة
+All branches,كل الفروع
+ALM,إدارة الأصول والخصوم
+API,واجهة API
+Asset Insurance,تأمين الأصول
+Assigned,بند واجهة
+Assigned To,مُسند إلى
+Assigned To Me,المُسند إليّ
+"At least one reference is required: Customer, Lead, or Opportunity.",بند واجهة
+Attachments,المرفقات
+Audit,التدقيق
+Balance Sheet,الميزانية العمومية
+Bank Unmatched Statement Lines,بنود كشف بنك غير مطابقة
+Billing,الفوترة
+Billing & collections,الفوترة والتحصيل
+Blacklisted,بند واجهة
+Bookings & registration,الحجوزات والتسجيل
+BOQ,جدول الكميات
 Branch,الفرع
-Branch belongs to another company.,فرع belongs إلى another شركة.
-Branch does not exist.,فرع does not exist.
-Breached,Breached
-Campaign,Campaign
-Campaign Cost,Campaign تكلفة
-Campaign Name,Campaign اسم
-Campaign Owner,Campaign Owner
-Campaign Type,Campaign نوع
-Case Category,حالة فئة
-Case Owner,حالة Owner
-Category and Details,فئة و تفاصيل
-cc-executive-dashboard,cc - تنفيذي - لوحة معلومات
-Channel,Channel
+Branch belongs to another company.,بند واجهة
+Branch does not exist.,بند واجهة
+Breached,بند واجهة
+Budget & cost control,الميزانية وضبط التكلفة
+Buy,المشتريات
+Call,بند واجهة
+CAM & recoveries,المصاريف المشتركة والاستردادات
+CAM Budget,ميزانية المصاريف المشتركة
+Campaign,بند واجهة
+Campaign Cost,بند واجهة
+Campaign Name,بند واجهة
+Campaign Owner,بند واجهة
+Campaign ROI,عائد الحملة
+Campaign Type,بند واجهة
+Cancel,إلغاء
+Cancelled,ملغى
+Car Rental,تأجير السيارات
+Card Break,قسم
+Case Category,بند واجهة
+Case Owner,بند واجهة
+Category and Details,الفئة و التفاصيل
+Channel,قناة
+Chart,مخطط
+Chart of Accounts,دليل الحسابات
+Closed,مغلق
+Commission Accrual,استحقاق العمولات
+Commission Schedule,جدول العمولات
 Company,الشركة
-Company filter is required.,شركة filter is required.
-Compliance,الامتثال
-Contact,جهة الاتصال
-Country,Country
-Creation Date,Creation تاريخ
-Credit Limit,ائتمان Limit
-CRM,CRM
-CRM Campaign,CRM Campaign
-CRM Case SLA Compliance,CRM حالة SLA امتثال
-CRM Case Ticket,CRM حالة Ticket
-CRM Customer Revenue,CRM عميل إيرادات
-CRM Interaction Log,CRM Interaction سجل
-CRM Lead,CRM عميل محتمل
-CRM Opportunity,CRM Opportunity
-CRM Opportunity Mix,CRM Opportunity Mix
-CRM Pipeline Value,CRM Pipeline Value
-Customer 360,عميل 360
-Customer Code,عميل كود
-Customer Code must be unique per company.,عميل كود must be unique per شركة.
-Customer Name,عميل اسم
-Customer Profile,ملف العميل
-Customer Profile Mix,عميل ملف Mix
-Customer Type,عميل نوع
-Deal Value,Deal Value
+Company filter is required.,الشركة تصفية is مطلوب .
+Complaint,بند واجهة
+Completed,مكتمل
+Compliance,امتثال
+Compliance checks complete,اكتملت فحوصات الامتثال
+Compliance Exceptions,استثناءات الامتثال
+Compliance Exceptions (IFRS),استثناءات الامتثال (IFRS)
+Compliance Exceptions (Tax),استثناءات الامتثال (ضريبي)
+Compliance Exceptions Dashboard,لوحة استثناءات الامتثال
+Compliance Reports,تقارير الامتثال
+Construction,المقاولات
+Construction & Engineering,المقاولات والهندسة
+Consumer Finance,التمويل الاستهلاكي
+Contact,جهة اتصال
+Converted,بند واجهة
+Core ERP,ERP الأساسي
+Corporate,مؤسسي
+Cost Center,مركز التكلفة
+Country,الدولة
+Create,إنشاء
+Create or review your first **CRM Interaction Log** record from this workspace.,أنشئ أو راجع أول سجل **CRM — بند واجهة** من مساحة العمل هذه.
+Create or review your first **CRM Lead** record from this workspace.,أنشئ أو راجع أول سجل **CRM — بند واجهة** من مساحة العمل هذه.
+Create or review your first **Customer Profile** record from this workspace.,أنشئ أو راجع أول سجل **العميل الملف الشخصي** من مساحة العمل هذه.
+Create or review your first **Omnexa Sales Settings** record from this workspace.,أنشئ أو راجع أول سجل **إعدادات مبيعات Omnexa** من مساحة العمل هذه.
+Create or review your first **User Branch Access** record from this workspace.,أنشئ أو راجع أول سجل **مستخدم الفرع الوصول** من مساحة العمل هذه.
+Creation Date,بند واجهة
+Credit Engine,محرك الائتمان
+Credit Limit,بند واجهة
+Credit Risk,مخاطر الائتمان
+Critical,حرج
+CRM,إدارة العملاء
+CRM Campaign,CRM — بند واجهة
+CRM Campaign Register,سجل CRM — بند واجهة
+CRM Case SLA Compliance,CRM SLA — بند واجهة
+CRM Case Ticket,CRM — بند واجهة
+CRM Case Ticket Register,سجل CRM — بند واجهة
+CRM Customer Revenue,إدارة العملاء العميل الإيراد
+CRM Interaction Log,CRM — بند واجهة
+CRM Interaction Log Register,سجل CRM — بند واجهة
+CRM Lead,CRM — بند واجهة
+CRM Lead Register,سجل CRM — بند واجهة
+CRM Opportunity,CRM — بند واجهة
+CRM Opportunity Register,سجل CRM — بند واجهة
+CRM Pipeline Value,CRM — بند واجهة
+Cross-module operations,عمليات متكاملة
+Currency,العملة
+Custom Documents,المستندات المخصصة
+Customer,العميل
+Customer Code,العميل الرمز
+Customer Code must be unique per company.,يجب أن العميل الرمز بند واجهة.
+Customer Name,العميل الاسم
+Customer Profile,العميل الملف الشخصي
+Customer Profile Register,سجل العميل الملف الشخصي
+Customer Type,العميل النوع
+Dashboard,لوحة معلومات
+Deal Value,بند واجهة
+Delete,حذف
+Design & quantities (BOQ),التصميم والكميات (جدول الكميات)
+Desk,المكتب
 Details,التفاصيل
-Direction,Direction
-Duplicate,Duplicate
+Development Budget,ميزانية التطوير
+Development Project,مشروع تطوير
+Development Project Register,سجل مشاريع التطوير
+Development project register,سجل مشاريع التطوير
+Direction,الاتجاه
+Documents & Integration,المستندات والتكامل
+Draft,مسودة
+Duplicate,نسخ
+E-Invoice,الفاتورة الإلكترونية
+Edit,تعديل
+Education,التعليم
 Email,البريد الإلكتروني
-End Date,تاريخ الانتهاء
-End Date cannot be before Start Date.,نهاية تاريخ cannot be before بداية تاريخ.
-Expected Closing Date,Expected Closing تاريخ
-Expected Deal Value,Expected Deal Value
-Filters,Filters
-Financial Profile,مالي ملف
-Further,Further
-GDPR Consent,GDPR Consent
-Generated Revenue,Generated إيرادات
-Industry Segment,Industry Segment
-Interaction Date,Interaction تاريخ
-Interaction Details,Interaction تفاصيل
-Interaction Owner,Interaction Owner
-Lead,عميل محتمل
-Lead Name,عميل محتمل اسم
-Lead Score,عميل محتمل درجة
-Lead Score must be between 0 and 100.,عميل محتمل درجة must be between 0 و 100.
-Lead Source,عميل محتمل Source
-Lead Status,عميل محتمل حالة
-Linked Accounting Customer,Linked محاسبة عميل
-Mobile No,Mobile No
-Notes,Notes
-Omnexa Customer Core,Omnexa عميل أساسي
-Opportunities,Opportunities
-Opportunity,Opportunity
-Opportunity Owner,Opportunity Owner
-Opportunity Title,Opportunity عنوان
-Outstanding,Outstanding
-Outstanding Balance,Outstanding رصيد
+Email Campaign,بند واجهة
+End Date,النهاية التاريخ
+End Date cannot be before Start Date.,بند واجهة
+Engineering Consulting,الاستشارات الهندسية
+Erpgenex Property Mgmt,إدارة العقارات
+Erpgenex Realestate Dev,التطوير العقاري
+Erpgenex Realestate Sales,التسويق العقاري
+ERPGENEX — Core ERP,ERPGENEX — ERP الأساسي
+ERPGENEX — Dashboard,ERPGENEX — لوحة المعلومات
+Escalated,بند واجهة
+Escalation Rule,قاعدة تصعيد الإيجار
+Event,حدث
+Executive Dashboard,لوحة المدير التنفيذية
+Expected Closing Date,بند واجهة
+Expected Deal Value,بند واجهة
+Explore this workspace,استكشف مساحة العمل
+Factoring,التخصيم
+Field PWA,تطبيق الميدان
+Filters,المرشحات
+Finance Control Exceptions,استثناءات الضوابط المالية
+Finance Control Violations,مخالفات الضوابط المالية
+Finance Controls,الضوابط المالية
+Finance Engine,محرك التمويل
+Finance Group,المجموعة المالية
+Finance SoD Blocks,حظر فصل المهام (SoD)
+Finance Workcenter,مركز عمل المالية
+Financial Profile,بند واجهة
+Fixed Assets,الأصول الثابتة
+Fleet Manager,بند واجهة
+Form,نموذج
+Further,المزيد
+GDPR Consent,بند واجهة
+General Ledger,دفتر الأستاذ العام
+Generated Revenue,بند واجهة
+Get started with CRM Interaction Log,CRM — بند واجهة
+Get started with CRM Lead,CRM — بند واجهة
+Get started with Customer Profile,بند واجهة
+Get started with Omnexa Sales Settings,إعدادات Omnexa — بند واجهة
+Get started with User Branch Access,بند واجهة
+GL Account,حساب GL
+Global Defaults,الإعدادات العامة
+Governance,الحوكمة
+Governance Overview,نظرة عامة على الحوكمة
+Government,حكومي
+Guest,زائر
+Handover & defects (snagging),التسليم والعيوب
+Handover Package,حزمة التسليم
+Healthcare,الرعاية الصحية
+Help,مساعدة
+High,مرتفع
+Home,الرئيسية
+HR,الموارد البشرية
+IFRS 16 Liability,التزام الإيجار IFRS 16
+In Progress,قيد التنفيذ
+Inactive,غير نشط
+Inbound,وارد
+Individual,بند واجهة
+Industry Segment,بند واجهة
+Industry Solutions,حلول القطاعات
+Inquiry,بند واجهة
+Insights,رؤى وتحليلات
+Interaction Date,بند واجهة
+Interaction Details,بند واجهة
+Interaction Owner,بند واجهة
+Inventory & development context,المخزون وسياق التطوير
+Inventory KPI Dashboard,لوحة مؤشرات المخزون
+Inventory KPIs,مؤشرات المخزون
+Inventory Low Stock Items,أصناف منخفضة المخزون
+Inventory Reorder Needed,أصناف تحتاج إعادة طلب
+Inventory Stock Items,أصناف المخزون
+Investigating,بند واجهة
+Item,الصنف
+Journal Entry,قيد يومية
+Land & project charter,الأرض وميثاق المشروع
+Land Parcel,قطعة أرض
+Language,اللغة
+Last Month,الشهر الماضي
+Last Week,الأسبوع الماضي
+Lead,بند واجهة
+Lead acquisition & qualification,اكتساب العملاء وتأهيلهم
+Lead Name,بند واجهة
+Lead Score,بند واجهة
+Lead Score must be between 0 and 100.,يجب أن بند واجهة بند واجهة.
+Lead Source,بند واجهة
+Lead Status,بند واجهة
+Leasing & occupancy (IFRS 16 / IPSAS rent),التأجير والإشغال (IFRS 16 / IPSAS)
+Leasing Finance,التمويل التأجيري
+Leasing Mandate,تفويض تأجير
+Linked Accounting Customer,بند واجهة
+List,قائمة
+Login,تسجيل الدخول
+Logout,تسجيل الخروج
+Lost,بند واجهة
+Low,منخفض
+Maintenance — service requests,الصيانة — طلبات الخدمة
+Management Agreement,اتفاقية إدارة
+Manual,يدوي
+Manufacturing,التصنيع
+Marketing Manager,بند واجهة
+Medium,متوسط
+Menu,القائمة
+Mobile No,الجوال لا
+Mortgage Finance,التمويل العقاري
+My work,عملي
+Name,الاسم
+Negotiation,بند واجهة
+New,جديد
+None,لا شيء
+Notes,ملاحظات
+Notifications,الإشعارات
+Number Card,بطاقة رقمية
+Occupancy,الإشغال
+Omnexa Accounting Settings,إعدادات محاسبة Omnexa
+Omnexa Customer Core Document Summary,ملخص Omnexa العميل النواة مستند
+Omnexa Marketplace Settings,إعدادات سوق Omnexa
+Omnexa Purchase Settings,إعدادات مشتريات Omnexa
+Omnexa Sales Settings,إعدادات مبيعات Omnexa
+Omnexa Settings,إعدادات Omnexa
+Omnexa Stock Settings,إعدادات مخزون Omnexa
+Open,مفتوح
+Open report Compliance Exceptions Dashboard,فتح تقرير لوحة استثناءات الامتثال
+Operating Scenarios,سيناريوهات التشغيل
+Operational Risk,المخاطر التشغيلية
+Opportunities,بند واجهة
+Opportunity,بند واجهة
+Opportunity Owner,بند واجهة
+Opportunity Title,بند واجهة
+Other,أخرى
+Outbound,صادر
+Outstanding,بند واجهة
+Outstanding Balance,بند واجهة
+Overdue,متأخر
 Overview,نظرة عامة
-Owner,Owner
-Performance,أداء
-Pipeline,Pipeline
-Pipeline Value,Pipeline Value
-Planning,Planning
-Posting,Posting
-Priority,Priority
-Probability,Probability
-Probability %,Probability%
-Probability must be between 0 and 100.,Probability must be between 0 و 100.
-Qualification,Qualification
-Reference,Reference
-Related Party,Related Party
-Reports,تقارير
-Resolved On,Resolved On
-Risk Score,مخاطر درجة
-Risk Score must be between 0 and 100.,مخاطر درجة must be between 0 و 100.
+Owner,المالك
+Owner reporting & trust accounting,تقارير الملاك والحسابات الائتمانية
+Owner Statement,كشف حساب المالك
+Partner / Vendor,بند واجهة / بند واجهة
+Payment Entry,سند قبض/صرف
+Payment Plan Item,بند خطة السداد
+Pending,قيد الانتظار
+Performance,بند واجهة
+Permit Milestone,معلم التصريح
+Pipeline,بند واجهة
+Pipeline Value,بند واجهة
+Planning,بند واجهة
+Platform & Administration,المنصة والإدارة
+PMC Lease Liability Schedule,جدول التزام الإيجار IFRS 16
+PMC Leasing Mandate,تفويض تأجير
+PMC Management Agreement,اتفاقية إدارة
+PMC Management Fee Summary,ملخص رسوم الإدارة
+PMC Occupancy Summary,ملخص الإشغال
+PMC Owner Statement,كشف حساب المالك
+PMC Owner Statement Register,سجل كشوف الملاك
+PMC Property,عقار
+PMC Property Unit,وحدة عقارية
+PMC Rent Aging,أعمار الإيجارات
+PMC Rent Billing Register,سجل فوترة الإيجار
+PMC Rent Roll,سجل الإيجارات
+PMC Rental Contract Register,سجل عقود الإيجار
+Portfolio & asset registry,المحفظة وسجل الأصول
+Posting,ترحيل
+Priority,الأولوية
+Probability,بند واجهة
+Probability %,بند واجهة
+Probability must be between 0 and 100.,يجب أن بند واجهة بند واجهة.
+Profile,الملف الشخصي
+Profit and Loss,الأرباح والخسائر
+Project EV,القيمة المكتسبة للمشروع
+Projects & Services,المشاريع والخدمات
+Projects PM,إدارة المشاريع
+Promotion,بند واجهة
+Property,عقار
+Property Management,إدارة العقارات
+Property Sales Booking Register,سجل حجوزات البيع
+Property Sales Lead,عميل مبيعات عقارية
+Proposal,مقترح
+Prospect,بند واجهة
+Purchase Invoice,فاتورة شراء
+Purchase Register,سجل المشتريات
+Qualification,بند واجهة
+Qualified,بند واجهة
+RE BOQ,جدول كميات التطوير
+RE Development,التطوير العقاري
+RE Handover Package,حزمة التسليم
+RE Marketing,التسويق العقاري
+RE Permit Milestone,معلم التصريح
+RE Project EV,القيمة المكتسبة للمشروع
+RE Subcontract Commitment,التزام مقاول باطن
+RE Unit Inventory,مخزون وحدات التطوير
+RE unit inventory (sales),مخزون وحدات البيع
+RE Unit Inventory Overview,نظرة عامة على مخزون الوحدات
+Real Estate,العقارات
+Reference,المرجع
+Referral,التحويل
+Refresh,تحديث
+Related Party,بند واجهة
+Reload,إعادة تحميل
+Rent Aging,أعمار الإيجارات
+Rent billing register,سجل فوترة الإيجار
+Rent Billing Run,تشغيل فوترة الإيجار
+Rent Roll,سجل الإيجارات
+Rental Agent,بند واجهة
+Rental Contract,عقد إيجار
+Rental contract register,سجل عقود الإيجار
+Report,تقرير
+Reservation register,سجل الحجوزات
+Reservations & unit holds,الحجوزات وحجز الوحدات
+Resolved,محلول
+Resolved On,محلول في
+Restaurant,المطاعم
+"Return here for shortcuts, charts, and lists for **Audit & Compliance**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **التدقيق والامتثال**.
+"Return here for shortcuts, charts, and lists for **Core ERP**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **ERP الأساسي**.
+"Return here for shortcuts, charts, and lists for **CRM**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **إدارة العملاء**.
+Risk Score,بند واجهة
+Risk Score must be between 0 and 100.,يجب أن بند واجهة بند واجهة.
 ROI %,ROI%
-Scoring and Value,Scoring و Value
-Service & Marketing,خدمة & Marketing
-SLA Breached,SLA Breached
-SLA Compliance %,SLA امتثال%
-SLA Due Date,SLA استحقاق تاريخ
-Stage,Stage
-Start Date,بداية تاريخ
+Sales Booking,حجز بيع
+Sales booking register,سجل حجوزات البيع
+Sales Commission Accrual,استحقاق عمولات المبيعات
+Sales Commission Schedule,جدول عمولات المبيعات
+Sales Invoice,فاتورة مبيعات
+Sales Lead,عميل محتمل
+Sales Manager,بند واجهة
+Sales Portal,بوابة المبيعات
+Sales Register,سجل المبيعات
+Sales User,بند واجهة
+Save,حفظ
+Scoring and Value,بند واجهة
+Search or type a command,ابحث أو اكتب أمرًا
+Search or type a command ({0}),ابحث أو اكتب أمرًا ({0})
+Sell,المبيعات
+Service Request,بند واجهة
+Services,الخدمات
+Settings,الإعدادات
+Shortcut,اختصار
+SLA Breached,SLA — بند واجهة
+SLA Compliance %,SLA امتثال %
+SLA Due Date,SLA — بند واجهة
+SME Microfinance,التمويل متناهي الصغر
+SME Retail Finance,تمويل المنشآت والتجزئة
+SMS,رسالة نصية
+SMS Campaign,SMS — بند واجهة
+Stage,بند واجهة
+Start Date,تاريخ البدء
 Status,الحالة
-Status Bar,حالة Bar
-Subject,Subject
-Target Audience Size,Target Audience Size
-Tax ID,Tax معرف
+Stock,المخزون
+Subcontract,مقاول باطن
+Subject,الموضوع
+Submit,إرسال
+Supplier,المورد
+Support Manager,بند واجهة
+Support User,مساندة مستخدم
+Supporting Attachment,مرفق داعم
+System Manager,مدير النظام
+Target Audience Size,بند واجهة
+Task List,قائمة المهام
+Tax ID,ID — بند واجهة
+Technical,بند واجهة
+This Month,هذا الشهر
+This Week,هذا الأسبوع
+Timezone,المنطقة الزمنية
 Title,العنوان
-Total Cases,إجمالي حالات
-Total Revenue,إجمالي إيرادات
-Triage and SLA,Triage و SLA
+Today,اليوم
+ToDo,مهمة
+Total Cases,بند واجهة
+Total Revenue,الإجمالي الإيراد
+Tourism,السياحة
+Trading,التجارة
+Trading & Manufacturing,التجارة والتصنيع
+Triage and SLA,SLA — بند واجهة
+Trial Balance,ميزان المراجعة
+Unit,وحدة
+Unit Inventory,مخزون الوحدات
+Unit inventory & sales readiness,مخزون الوحدات وجاهزية البيع
+Unit inventory overview,نظرة عامة على مخزون الوحدات
+Unit Reservation,حجز وحدة
+Unit Reservation Register,سجل حجز الوحدات
+Update,تحديث
+Vehicle Finance,تمويل المركبات
+Warehouse,المستودع
+Web,بند واجهة
+Web Chat,بند واجهة
+WhatsApp,بند واجهة
+Won,بند واجهة
+Workspace,مساحة العمل
+Workspaces,مساحات العمل
+Yesterday,أمس
+You are ready to work in Core ERP.,أنت جاهز للعمل في ERP الأساسي.
+✅ Handover,✅ التسليم
+🎯 CRM,🎯 إدارة العملاء
+🏗️ Projects,🏗️ المشاريع
+🏢 Organization,🏢 التنظيم والإعداد
+🏢 Organization & Setup,🏢 التنظيم والإعداد
+🏢 Portfolio,🏢 المحفظة العقارية
+👥 HR & Users,👥 الموارد البشرية والمستخدمون
+💰 Billing · Finance · ERP,💰 الفوترة · المالية · ERP
+💰 Commissions,💰 العمولات
+💰 Finance & ERP,💰 المالية · ERP
+💰 Owner & CAM,💰 المالك والمصاريف المشتركة
+📈 Reports,📈 التقارير
+📊 Analytics,📊 التحليلات
+📊 Dashboards,📊 لوحات المعلومات
+📊 Dashboards & Portals,📊 لوحات المعلومات والبوابات
+📊 Dashboards & portals,📊 لوحات المعلومات والبوابات
+📋 Commercial,📋 التجاري
+📋 Leasing,📋 التأجير
+📋 Operations,📋 العمليات
+📐 BOQ & inventory,📐 جدول الكميات والمخزون
+📦 Inventory & Supply,📦 المخزون والتوريد
+🔗 Integration,🔗 التكامل
+🚚 Field operations,🚚 العمليات الميدانية
+🛡️ Compliance,🛡️ الامتثال
